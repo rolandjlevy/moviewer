@@ -18,8 +18,6 @@ class App extends React.Component {
         
     const API_KEY = process.env['REACT_APP_OMDB_API_KEY'];
     const BASE_URL = process.env['REACT_APP_OMDB_BASE_URL'];
-
-    console.log({ API_KEY, BASE_URL });
     
     this.state = {
       baseURL: `${BASE_URL}?apikey=${API_KEY}`,
